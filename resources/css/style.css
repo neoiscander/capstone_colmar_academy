@@ -1,1 +1,211 @@
-style
+/* Universal styling */
+
+html {
+	font-size: 16px;
+	font-family: ;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+/* ----- Header -----*/
+
+.header {
+	width: 100%;
+	height: 4rem;
+}
+
+.header, .logo, .navigation, .navigation ul {
+	display: flex;
+	align-items: center;
+}
+
+.header {
+	justify-content: space-between;
+}
+
+.logo, .navigation {
+	max-width: 50%;
+	height: 2rem;
+	padding: 0 1.5rem;
+}
+
+.navigation ul {
+	justify-content: flex-end;
+}
+
+
+/* border for header*/
+.header, .logo, .navigation, .navigation nav, .navigation ul, .navigation li, .navigation a {
+	border: 1px solid black;
+}
+
+.logo-header span {
+	color: grey;
+}
+
+.header a {
+	padding-left: 1rem;
+}
+
+
+
+/* --- Banner section ---*/
+
+.banner-section {
+	padding: 2rem 1.5rem;
+	display: flex;
+	align-items: center;
+	background-color: lightgrey;
+
+}
+
+
+/* border for banner */
+.banner-section, .banner-image, .banner-text, .banner-text h2, .banner-text h4 {
+	border: 1px solid black;
+}
+
+
+.banner-section {
+	max-width: 74.5rem;
+}
+
+.banner-image {
+	width: 65%;
+	height: auto;
+}
+
+.banner-image img {
+	width: 100%;
+	height: auto;
+}
+
+.banner-text {
+	margin-left: 1.5rem;
+	margin-right: 3rem;
+}
+
+.banner-text h2 {
+	font-size: 2.25rem;
+	font-weight: bold;
+	margin: 1.5rem 0;
+}
+
+.banner-text h4 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.banner-section button {
+	width: 100%;
+	padding: .5rem 0;
+	background-color: grey;
+	font-size: 1rem;
+	margin: 1.5rem 0;
+	color: white;
+}
+
+
+
+/* --- Middle section ---*/
+
+.middle-section, .column-one, .column-two, .column-one img {
+	border: 1px solid orange;
+}
+
+
+.middle-section {
+	display: flex;
+	justify-content: center;
+	padding: 2rem 0 2rem 1.5rem;
+	max-width: 76rem;
+}
+
+
+
+
+/*Column-one*/
+.column-one {
+	width: 60%;
+	padding-right: 1.5rem;
+	padding-bottom: 2rem;
+}
+
+
+.column-one h2 {
+	font-weight: bold;
+	font-size: 2rem;
+	padding-bottom: 1.5rem;
+	padding-top: 2rem;
+}
+
+
+
+
+.column-one img {
+	width: 100%;
+	height: auto;
+}
+
+
+#cite-author {
+	padding: 2rem 0;
+}
+
+/*Column two*/
+
+.column-two, .row, .row-image, .row-text, .row-image img {
+	border: 1px solid green;
+}
+
+
+.column-two {
+	width: 40%;	
+}
+
+
+.row {
+	display: flex;
+	padding: 1rem;
+	align-items: center;
+
+}
+
+.row #first-row {
+	padding-top: 0;
+}
+
+
+.row-image {
+	width: 35%;
+	height: auto;
+}
+
+
+.row-image img {
+	width: 100%;
+	height: auto;
+}
+
+.row-text {
+	width: 65%;
+	padding
+}
+
+.row-text a {
+	color: blue;
+}
+
+.row-text h4 {
+	font-weight: bold;
+}
+
+.row-text p {
+	padding: .5rem 0;
+}

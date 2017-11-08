@@ -19,7 +19,7 @@
 			</div>
 			
 			<div class="logo-header">
-				<h4><strong>COLMAR</strong>ACADEMY</h4>
+				<h4>COLMAR<span>ACADEMY</span></h4>
 			</div>
 		</div>
 		
@@ -47,7 +47,7 @@
 		
 		<div class="banner-text">
 			<h2>Learn something new everyday</h2>
-			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
 			<button>Start here</button>
 		</div>
 	</div>
@@ -58,27 +58,39 @@
 	<div class="middle-section">
 		
 		<!-- Column 1-->
-		<div class="column">
-			<div class="middle-main-image">
+		<div class="column-one">
+			
+			<div>
 				<img src="resources/images/information-main.jpg" alt="Smiling man with the book">
 			</div>
 
 			
-			<div class="middle-main-image-text">
+			<div>
 				<h2>It doesn't hurt to keep practicing</h2>
-				<q>Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, ne consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula</q>
-				<p>Emmanuel, Sr. Strategist at Hiring.com</p>
-				<cite></cite>
+				
+				<blockquote>
+					<p>
+						"Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, ne consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
+					</p>
+					<p id="cite-author">
+						Emmanuel, Sr. Strategist at Hiring.com
+					</p>
+				</blockquote>
+				
 			</div>
 		</div>
 
 		<!-- Column 2 -->
-		<div class="column">
+		<div class="column-two">
 			
 			<!-- Row 1-->
-			<div class="row">
-				<img src="resources/images/information-orientation.jpg" alt="information orientation">
-				<div class="middle-image-description">
+			<div class="row" id="first-row"> 
+				
+				<div class="row-image">
+					<img src="resources/images/information-orientation.jpg" alt="information orientation">
+				</div>
+
+				<div class="row-text">
 					<h4>Orientation date</h4>
 					<p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
 					<a href="#">Read more</a>
@@ -87,8 +99,12 @@
 
 			<!-- Row 2-->
 			<div class="row">
-				<img src="resources/images/information-campus.jpg" alt="Room with atlas">
-				<div class="middle-image-description">
+				
+				<div class="row-image">
+					<img src="resources/images/information-campus.jpg" alt="Room with atlas">
+				</div>
+
+				<div class="row-text">
 					<h4>Our campus</h4>
 					<p>Find which campus is close by you</p>
 					<a href="">Read more</a>
@@ -97,11 +113,15 @@
 
 			<!-- Row 3-->
 			<div class="row">
-				<img src="Our guest lecture" alt="an old man with glasses and beard">
-				<div class="middle-image-description">
+				
+				<div class="row-image">
+					<img src="resources/images/information-guest-lecture.jpg" alt="an old man with glasses and beard">
+				</div>
+				
+				<div class="row-text">
 					<h4>Our guest lecture</h4>
 					<p>Join a keynote with Oliver Sack about music in medical treatment</p>
-					<a href="">Read more</a>
+					<a href="#">Read more</a>
 				</div>
 			</div>
 
@@ -210,15 +230,14 @@
 			</div>
 
 		</div>
-
 	</div>
 	
 
 
-	<!-- Thesis section-->
+	<!-- Thesis section (video lives here)-->
 	<div class="thesis">
 		<div class="thesis-video">
-			<video src=""></video>
+			<video src="resources/videos/thesis.mp4" autoplay controls></video>
 			<div class="thesis-video-text">
 				<h4>Reimagine urban</h4>
 				<p>
@@ -227,6 +246,9 @@
 			</div>
 		</div>
 
+		
+		
+		<!-- Thesis section -->
 		<div class="thesis-row">
 			<div class="thesis-row-box">
 				<img src="" alt="">
@@ -245,6 +267,9 @@
 		</div>
 	</div>
 
+
+
+	<!-- Footer -->
 	<footer>
 		
 		<p>&copy; 2016 Colmar Academy. All right reserved</p>
