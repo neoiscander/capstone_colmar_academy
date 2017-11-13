@@ -4,27 +4,27 @@
 	<meta charset="UTF-8">
 	<title>Colmar Academy</title>
 	<link rel="stylesheet" href="resources/css/reset.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans" rel="stylesheet" typt="text/css">
 	<link rel="stylesheet" href="resources/css/style.css" type="text/css">
-	
+
 </head>
 <body>
 
 	<!-- Header -->
-	<div class="header">
-		
+	<header>
 
-		<div class="logo">
+		<div class="logo for-large-screens">
 			<div class="logo-image">
 				<img src="resources/images/ic-logo.svg" alt="logo">
 			</div>
-			
+
 			<div class="logo-header">
-				<h4>COLMAR<span>ACADEMY</span></h4>
+				<h4><strong>COLMAR</strong><span>ACADEMY</span></h4>
 			</div>
 		</div>
-		
 
-		<div class="navigation">
+
+		<div class="navigation for-large-screens">
 			<nav>
 				<ul>
 					<li><a href="">On campus</a></li>
@@ -34,17 +34,25 @@
 				</ul>
 			</nav>
 		</div>
-	</div>
+
+
+    <div class="for-small-screens">
+    	<img src="resources/images/ic-logo.svg" alt="logo lion">
+    	<img src="resources/images/ic-on-campus.svg" alt="chair with mini table">
+    	<img src="resources/images/ic-online.svg" alt="computer">
+    	<img src="resources/images/ic-login.svg" alt="silhouette">
+    </div>
+	</header>
 
 
 
 	<!-- Banner section-->
-	<div class="banner-section">
-		
+	<div class="banner-section color-target">
+
 		<div class="banner-image">
 			<img src="resources/images/banner.jpg" alt="banner image">
 		</div>
-		
+
 		<div class="banner-text">
 			<h2>Learn something new everyday</h2>
 			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
@@ -56,18 +64,18 @@
 
 	<!-- Middle section-->
 	<div class="middle-section">
-		
+
 		<!-- Column 1-->
-		<div class="column-one">
-			
+		<div class="column-one for-large-screens">
+
 			<div>
 				<img src="resources/images/information-main.jpg" alt="Smiling man with the book">
 			</div>
 
-			
+
 			<div>
 				<h2>It doesn't hurt to keep practicing</h2>
-				
+
 				<blockquote>
 					<p>
 						"Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, ne consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
@@ -76,18 +84,20 @@
 						Emmanuel, Sr. Strategist at Hiring.com
 					</p>
 				</blockquote>
-				
+
 			</div>
 		</div>
 
 		<!-- Column 2 -->
 		<div class="column-two">
-			
+
 			<!-- Row 1-->
-			<div class="row" id="first-row"> 
-				
+			<div class="row" id="first-row">
+
 				<div class="row-image">
-					<img src="resources/images/information-orientation.jpg" alt="information orientation">
+					<img class="for-large-screens" src="resources/images/information-orientation.jpg" alt="information orientation">
+
+					<img class="for-small-screens" src="resources/images/information-orientation-mobile.jpg" alt="orientation mobile">
 				</div>
 
 				<div class="row-text">
@@ -99,10 +109,14 @@
 
 			<!-- Row 2-->
 			<div class="row">
-				
+
 				<div class="row-image">
-					<img src="resources/images/information-campus.jpg" alt="Room with atlas">
+					<img class="for-large-screens" src="resources/images/information-campus.jpg" alt="Room with atlas">
+
+					<img class="for-small-screens" src="resources/images/information-campus-mobile.jpg" alt="room with atlas">
 				</div>
+
+
 
 				<div class="row-text">
 					<h4>Our campus</h4>
@@ -112,12 +126,14 @@
 			</div>
 
 			<!-- Row 3-->
-			<div class="row">
-				
+			<div class="row color-target">
+
 				<div class="row-image">
-					<img src="resources/images/information-guest-lecture.jpg" alt="an old man with glasses and beard">
+					<img class="for-large-screens" src="resources/images/information-guest-lecture.jpg" alt="an old man with glasses and beard">
+
+					<img class="for-small-screens" src="resources/images/information-guest-lecture-mobile.jpg" alt="an old man with glasses and beard">
 				</div>
-				
+
 				<div class="row-text">
 					<h4>Our guest lecture</h4>
 					<p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -126,155 +142,182 @@
 			</div>
 
 		</div>
+
 	</div>
 
 
 	<!-- Learning section-->
 	<div class="learning-section">
-		
+
 		<!-- Row 1 header -->
 		<div class="learning-section-row">
 			<h2>Start learning</h2>
 		</div>
 
-		
-		<!-- Row 2 first block images row-->
-		<div class="learning-section-row">
-			
-			<!-- Row 1 box 1-->
+
+		<!-- Row 2 first blocks row-->
+		<div class="learning-section-row" id="row-1">
+
+			<!-- Row 2 box 1-->
 			<div class="learning-section-box">
-				
-				<div class="learning-section-image">
+
+				<div class="learning-section-image for-large-screens">
 					<img src="resources/images/course-software.jpg" alt="cource-software">
 				</div>
-				
+
 				<div class="learning-section-text">
 					<h4>Software engineering</h4>
-					<p>COURSE</p>
-					<p>Web Development, Mobile Development, iOT, APIs</p>
-				</div>
-			</div>
-			
-			<!-- Row 1 box 2-->
-			<div class="learning-section-box">
-				<div class="learning-section-image">
-					<img src="resources/images/course-computer-art.jpg" alt="hand &amp; smartphone">
-				</div>
-				
-				<div class="learning-section-text">
-					<h4>Computer art</h4>
-					<p>COURSES</p>
-					<p>Imaging &amp; Design, Web Design< Motion Graphics &amp; Visual Effects, Computer Animation</p>
+					<p class="p-padding-target for-large-screens">COURSES</p>
+					<p class="for-large-screens">Web Development, Mobile Development, iOT, APIs</p>
 				</div>
 			</div>
 
-			<!-- Row 1 box 3-->
+			<!-- Row 2 box 2-->
+			<div class="learning-section-box margin-target">
+				<div class="learning-section-image for-large-screens">
+					<img src="resources/images/course-computer-art.jpg" alt="hand &amp; smartphone">
+				</div>
+
+				<div class="learning-section-text">
+					<h4>Computer art</h4>
+					<p class="p-padding-target for-large-screens">COURSES</p>
+					<p class="for-large-screens">Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+				</div>
+			</div>
+
+			<!-- Row 2 box 3-->
 			<div class="learning-section-box">
-				
-				<div class="learning-section-image">
+
+				<div class="learning-section-image for-large-screens">
 					<img src="resources/images/course-design.jpg" alt="hands with the camera">
 				</div>
-				
+
 				<div class="learning-section-text">
 					<h4>Design</h4>
-					<p>COURSES</p>
-					<p>User Experience Design, User Research, Visual Design</p>
-				</div>				
+					<p class="p-padding-target for-large-screens">COURSES</p>
+					<p class="for-large-screens">User Experience Design, User Research, Visual Design</p>
+				</div>
 			</div>
 		</div>
-		
+
 
 		<!-- Row 3 secton block images row-->
 		<div class="learning-section-row">
-		
+
 			<!-- Row 3 box 1-->
 			<div class="learning-section-box">
-				
-				<div class="learning-section-image">
+
+				<div class="learning-section-image for-large-screens">
 					<img src="resources/images/course-data.jpg" alt="silver laptop open">
 				</div>
-				
+
 				<div class="learning-section-text">
 					<h4>Data</h4>
-					<p>COURSES</p>
-					<p>Data Science, Big Data, SQL, Data Visualization</p>
+					<p class="p-padding-target for-large-screens">COURSES</p>
+					<p class="for-large-screens">Data Science, Big Data, SQL, Data Visualization</p>
 				</div>
 			</div>
 
 			<!-- Row 3 box 2-->
-			<div class="learning-section-box">
-				
-				<div class="learning-section-image">
+			<div class="learning-section-box margin-target">
+
+				<div class="learning-section-image for-large-screens">
 					<img src="resources/images/course-business.jpg" alt="chess">
 				</div>
 
 				<div class="learning-section-text">
 					<h4>Business</h4>
-					<p>COURSES</p>
-					<p>Product Development, Business Development, Startup</p>
+					<p class="p-padding-target for-large-screens">COURSES</p>
+					<p class="for-large-screens">Product Development, Business Development, Startup</p>
 				</div>
 			</div>
 
 			<!-- Row 3 box 3-->
 			<div class="learning-section-box">
-				
-				<div class="learning-section-image">
+
+				<div class="learning-section-image for-large-screens">
 					<img src="resources/images/course-marketing.jpg" alt="smartwatch">
 				</div>
 
 				<div class="learning-section-text">
 					<h4>Marketing</h4>
-					<p>COURSES</p>
-					<p>Analytics, Content Marketing, Mobile Marketing</p>					
+					<p class="p-padding-target for-large-screens">COURSES</p>
+					<p class="for-large-screens">Analytics, Content Marketing, Mobile Marketing</p>
 				</div>
 			</div>
 
 		</div>
 	</div>
-	
+
 
 
 	<!-- Thesis section (video lives here)-->
 	<div class="thesis">
-		<div class="thesis-video">
-			<video src="resources/videos/thesis.mp4" autoplay controls></video>
-			<div class="thesis-video-text">
-				<h4>Reimagine urban</h4>
-				<p>
-					"Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
-				</p>
+
+		<div class="thesis-header">
+			<h2>Thesis exhibit</h2>
+		</div>
+
+
+    <!-- thesis columns container -->
+    <div class="thesis-columns-container">
+
+		  <!-- Column 1-->
+			<div class="thesis-video-section">
+				<video src="resources/videos/thesis.mp4" autoplay controls></video>
+				<div class="thesis-video-text for-large-screens">
+					<h4>Reimagine urban</h4>
+					<p>
+						"Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
+					</p>
+				</div>
+			</div>
+
+
+			<!-- Column 2 -->
+			<div class="thesis-row-section for-large-screens">
+
+				<!-- Row 1-->
+				<div class="thesis-row-box color-target">
+
+					<div class="thesis-row-box-image">
+						<img src="resources/images/thesis-fisma.jpg" alt="man's hand drawing something on paper">
+					</div>
+
+					<div class="thesis-row-box-text">
+						<h4>Fisma: Design and Prototype</h4>
+						<p>Designer showcase of new prototype product</p>
+					</div>
+				</div>
+
+				<!-- Row 2-->
+				<div class="thesis-row-box">
+
+					<div class="thesis-row-box-image">
+						<img src="resources/images/thesis-now-and-then.jpg" alt="a view overlooking New York">
+					</div>
+
+					<div class="thesis-row-box-text">
+						<h4>Now and then</h4>
+						<p>Research study about New York</p>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		
-		
-		<!-- Thesis section -->
-		<div class="thesis-row">
-			<div class="thesis-row-box">
-				<img src="" alt="">
-				<div class="thesis-row-box-text">
-					<h2></h2>
-					<p></p>
-				</div>
-			</div>
-			<div class="thesis-row-box">
-				<img src="" alt="">
-				<div class="thesis-row-box-text">
-					<h2></h2>
-					<p></p>
-				</div>
-			</div>
-		</div>
+
 	</div>
 
 
 
 	<!-- Footer -->
 	<footer>
-		
-		<p>&copy; 2016 Colmar Academy. All right reserved</p>
 
-		<nav>
+		<div>
+			<p>&copy; 2016 Colmar Academy. All right reserved</p>
+		</div>
+
+		<nav class="for-large-screens">
 			<ul>
 				<li><a href="#">Terms</a></li>
 				<li><a href="#">Privacy</a></li>
